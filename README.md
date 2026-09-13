@@ -12,10 +12,11 @@ Final features: Pclass, sex_encoded, Age, Fare, Has_Cabin, Title_Miss, Title_Mr,
 
 Results (random_state=42):
 
-Model	Train	Test
-Decision tree, depth 5	84.7%	83.8%
-Decision tree, unlimited depth	97.8%+	~76%
-Random forest, 100 trees, depth 10	94.0%	84.4%
+| Model | Train | Test |
+|-------|-------|------|
+| Decision tree, depth 5 | 84.7% | 83.8% |
+| Decision tree, unlimited depth | 97.8%+ | ~76% |
+| Random forest, 100 trees, depth 10 | 94.0% | 84.4% |
 
 Random forest confusion matrix: 96 correctly predicted deaths, 55 correctly predicted survivors, 9 false positives, 19 false negatives. Precision/recall came out to 0.83/0.91 for "died" and 0.86/0.74 for "survived."
 
